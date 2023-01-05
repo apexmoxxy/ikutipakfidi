@@ -25,5 +25,9 @@ class Student extends Database{
             echo $this->db->errorInfo();
         };
     }
+
+    public function getMhs(){
+        
+    }
 }
 ?>
